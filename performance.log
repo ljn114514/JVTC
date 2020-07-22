@@ -1,0 +1,16 @@
+duke2market
+market test feature (19281, 512)
+performance based on visual similarity
+mAP: 0.6529, r1:0.8446, r5:0.9350, r10:0.9575, r20:0.9748
+performance based on joint similarity
+mAP: 0.6770, r1:0.8691, r5:0.9558, r10:0.9709, r20:0.9825
+
+
+
+
+market2duke
+duke test feature (19889, 512)
+performance based on visual similarity
+mAP: 0.5687, r1:0.7527, r5:0.8523, r10:0.8838, r20:0.9048
+performance based on joint similarity
+mAP: 0.6678, r1:0.8178, r5:0.9013, r10:0.9206, r20:0.9313
