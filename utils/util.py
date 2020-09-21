@@ -16,7 +16,9 @@ def cluster(dist, rho=1.6e-3):
 	tri_mat = tri_mat[np.nonzero(tri_mat)]
 	tri_mat = np.sort(tri_mat,axis=None)
 	top_num = np.round(rho*tri_mat.size).astype(int)
-	eps = tri_mat[:top_num].mean()#*2
+	eps = tri_mat[:top_num].mean()
+	#low eps for training without source domain
+	#eps = eps*0.8 
 	#print('eps in cluster: {:.3f}'.format(eps))
 	cluster = DBSCAN(eps=eps,min_samples=1,metric='precomputed', n_jobs=8)
 	labels = cluster.fit_predict(dist)
