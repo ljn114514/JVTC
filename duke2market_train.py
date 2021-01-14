@@ -23,8 +23,8 @@ tar_dir = dataset_path + 'Market-1501/bounding_box_train_camstyle_merge/'
 tar_dir_test = dataset_path + 'Market-1501/'
 
 src_annfile = 'list_duke/list_duke_train.txt'
-tar_annfile = 'list_market/list_market_train.txt'
-tar_annfile_test = 'list_market/list_market_test.txt'
+tar_annfile = 'list_market/list_market_train_new.txt'
+tar_annfile_test = 'list_market/list_market_test_new.txt'
 
 #resnet50: https://download.pytorch.org/models/resnet50-19c8e357.pth
 imageNet_pretrain = 'resnet50-19c8e357.pth'
