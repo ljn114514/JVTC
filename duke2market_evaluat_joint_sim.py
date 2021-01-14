@@ -15,8 +15,8 @@ from utils.evaluate_joint_sim import evaluate_joint
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 dataset_path = 'data/dataset/'
-ann_file_train = 'list_market/list_market_train.txt'
-ann_file_test = 'list_market/list_market_test.txt'
+ann_file_train = 'list_market/list_market_train_new.txt'
+ann_file_test = 'list_market/list_market_test_new.txt'
 
 snapshot = 'snapshot/resnet50_duke2market_epoch00100.pth'
 
